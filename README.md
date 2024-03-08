@@ -45,21 +45,21 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-<!-- Design Decisions -->
+# Design Decisions 
 
-<!-- Application Structure -->
+## Application Structure 
 
-## React with TypeScript:
+### React with TypeScript:
  Chosen for its robust typing system, enhancing code quality and predictability.
 
-## Suspense for Data Fetching:
+### Suspense for Data Fetching:
 Utilized React's Suspense for handling the loading state of artwork data, improving user experience by providing a fallback UI during data fetching.
 
-## React Hook Form:
+### React Hook Form:
 Implemented for form handling in the comments section to leverage its performance and minimal re-rendering.
 State Management
 
-## Local State Management:
+### Local State Management:
 Used React's useState and useEffect hooks for managing state and side effects. This choice was made due to the application's moderate complexity and the need for a simple, straightforward state management solution.
 
 <!-- Styling -->
@@ -67,7 +67,7 @@ Used React's useState and useEffect hooks for managing state and side effects. T
 Selected for its utility-first approach, enabling rapid UI development with responsiveness and customizability in mind.
 Pagination and Filtering.
 
-## Client-Side Pagination and Filtering:
+### Client-Side Pagination and Filtering:
 Implemented to reduce the load on the server and provide a quicker, more responsive experience for the user. React Paginate was used for handling pagination UI and logic.
 
 <!-- Artwork Details -->
