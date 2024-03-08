@@ -172,7 +172,7 @@ const Artwork = () => {
             onArtworkClicked={artworkClicked}
           />
         ) : (
-          <div>No artworks found.</div> // Fallback content if no artworks are available
+          <div className="flex justify-center my-10">No artworks found.</div> // Fallback content if no artworks are available
         )}
       </Suspense>
       <div className="flex justify-center my-5">
