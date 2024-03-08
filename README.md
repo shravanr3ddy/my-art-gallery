@@ -80,4 +80,4 @@ Provides an efficient and easy way to implement form validation, improving user 
 
 ## COMMENTS 
 1. API calls for filter the categories and title are not working as expected, so i did a client side filter functionality.
-2. While searching for categories the result is empty for most of the categories because of client side filtering and it is done only on 10 records per page. You will get the data when you switch for different paginations.
+2. While searching for categories the result is empty for most of the categories because of client side filtering and it is done only on 10 records per page. You will get the data when you switch for different paginations and the categories data match with the 10 records we have.
