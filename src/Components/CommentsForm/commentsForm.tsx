@@ -38,7 +38,7 @@ const CommentsForm: React.FC = () => {
             id="firstName"
             {...register("firstName", { required: "First name is required" })}
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="John"
+            placeholder="First Name"
           />
           {errors.firstName && (
             <p className="text-red-500">{errors.firstName.message}</p>
@@ -57,7 +57,7 @@ const CommentsForm: React.FC = () => {
             id="lastName"
             {...register("lastName", { required: "Last name is required" })}
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Doe"
+            placeholder="Last Name"
           />
           {errors.lastName && (
             <p className="text-red-500">{errors.lastName.message}</p>
