@@ -70,16 +70,14 @@ Pagination and Filtering.
 ### Client-Side Pagination and Filtering:
 Implemented to reduce the load on the server and provide a quicker, more responsive experience for the user. React Paginate was used for handling pagination UI and logic.
 
-<!-- Artwork Details -->
-## Lazy Loading Component:
+## Artwork Details
+### Lazy Loading Component:
 Artwork details are loaded in a separate page to keep the initial page load lightweight and ensure details are only fetched when needed.
 
-<!-- Comments Form -->
-## React Hook Form for Validation:
+## Comments Form 
+### React Hook Form for Validation:
 Provides an efficient and easy way to implement form validation, improving user experience by ensuring all comment form inputs are correctly filled.
 
-<!-- COMMENTS -->
+## COMMENTS 
 1. API calls for filter the categories and title are not working as expected, so i did a client side filter functionality.
 2. While searching for categories the result is empty for most of the categories because of client side filtering and it is done only on 10 records per page. You will get the data when you switch for different paginations.
-
-    <!-- THANK YOU... -->
