@@ -124,6 +124,7 @@ const Artwork = () => {
         setFilteredArtworks([selectedArtwork]);
       }
     } else {
+      setSelectedTitle(null);
       setFilteredArtworks(artworks);
     }
   };
